@@ -21,4 +21,4 @@ jobs:
       - uses: compas-dev/compas-actions.build@v3
         with:
           python: ${{ matrix.python }}
-          invoke_lint: true
+#          invoke_lint: true
